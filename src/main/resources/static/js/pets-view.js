@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     const datatablesSimple = document.getElementById('datatablesPets');
 
-    let dataTable =   new simpleDatatables.DataTable(datatablesSimple,);
+    let dataTable =  new simpleDatatables.DataTable(datatablesSimple,);
 
     fetch('api/pets/')
         .then((response) => response.json())
